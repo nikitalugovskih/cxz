@@ -1,0 +1,717 @@
+.main__container {
+    display: flex;
+    width: 980px;
+    height: auto;
+    margin: 0rem 20rem;
+    background-color: rgba(221,51,51,0);
+    padding: 1rem;
+}
+
+.main_info {
+    width: 100%;
+}
+
+.main-img {
+    width: 39rem;
+    height: 25rem;
+    background: url('/nft.552b4ad2.webp') center/cover no-repeat;
+    margin-top: 3rem;
+}
+
+.main__text{
+    font-size: 26px;
+    line-height: 1;
+    font-weight: 700;
+    margin: 22px 0 1rem 0;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttons {
+    margin-top: 1rem;
+}
+
+.nav__link {
+    color: #fff;
+}
+
+.main__button-guide {
+    background-color: #222222;
+    border-color: #222222;
+    color: #fff;
+}
+
+.main__button-altcoin {
+    text-decoration: none;
+    background-color: #fff;
+    color: #222222;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8%;
+    border-width: 0.5px 0.5px 0.5px 0.5px;
+    padding: 3px 3px 3px 3px;
+    font-size: 12px;
+}
+
+.main__button-gambling {
+    text-decoration: none;
+    background-color: #fff;
+    color: #222222;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8%;
+    border-width: 1px 1px 1px 1px;
+    padding: 3px 3px 3px 3px;
+    font-size: 12px;
+}
+
+.main__button-guide {
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10%;
+    border-width: 1px 1px 1px 1px;
+    padding: 3px 3px 3px 3px;
+    font-size: 12px;
+}
+
+.main__button-ico {
+    text-decoration: none;
+    background-color: #fff;
+    color: #222222;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10%;
+    border-width: 1px 1px 1px 1px;
+    padding: 3px 3px 3px 3px;
+    font-size: 12px;
+}
+
+.main__button-guide:hover {
+    color: #fff;
+    background-color: #e0b233;
+}
+
+.main__button-altcoin:hover, .main__button-gambling:hover, .main__button-ico:hover {
+    color: #e0b233;
+}
+
+/* dropdwnbtn */
+
+.main__button-options::after {
+    content: '\25BD';
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropbtn {
+    /* background-color: #4CAF50; */
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    padding-top: 1.4rem;
+    background-color: #f9f9f9;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #e0b233;
+}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* .dropdown:hover .main__button-options {
+    background-color: #3e8e41;
+  } */
+
+.main__subtext {
+    font-style: italic;
+    margin-top: 4rem;
+}
+
+.main__button {
+    margin-top: 2rem;
+}
+
+.main__button::after {
+    transition: opacity 0.2s ease 0s;
+    opacity: 1;
+}
+
+.main__container-text {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-top: 1.9rem;
+    margin-bottom: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.main__container-subtext {
+    font-style: italic;
+}
+
+.decs_text {
+    color: #e0b233;
+    text-decoration: none;
+}
+
+.main__containers {
+    display: flex;
+    /* width: 50.5rem;
+    height: auto; */
+    width: 980px;
+    height: auto;
+    padding: 1rem;
+    margin: 0rem 20rem;
+    background-color: rgba(221,51,51,0);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.main__containers-info {
+    display: flex;
+}
+
+.main__containers-img {
+    width: 10rem;
+    height: 3rem;
+}
+
+.main__containers-img {
+    width: 100%;
+    height: auto;
+    background: url('/main-img.4c305f87.webp') center/cover no-repeat;
+}
+
+.main__containers-subinfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.main__containers-text, .main__containers-autor, .main__containers-subtitle__info {
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #222222;
+}
+
+.main__containers-autor {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.main__containers-date, .prefix {
+    font-size: 11px;
+}
+
+.sticky__containers-subtitle {
+    width: 8rem;
+    text-decoration: none;
+    color: #4db2ec;
+}
+
+.sticky__containers-subtitle-comprainfo {
+    font-size: 13px;
+}
+
+.sticky__containers-subtitle-info {
+    text-decoration: none;
+    color: #4db2ec;
+}
+
+.sticky__containers-subtitle:hover {
+    cursor: pointer;
+    color: #e0b233;
+    
+}
+
+.sticky__containers-subtitle-info:hover {
+    cursor: pointer;
+color: #e0b233;
+}
+
+.main__containers-block {
+    width: 35rem;
+    height: 11rem;
+}
+
+.sticky__containers {
+    position: sticky;
+    top: 0;
+}
+
+.sticky__containers-title {
+    margin-bottom: 1rem;
+    font-size: 18px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sticky__containers-title::after {
+width: 15.3rem;
+content: '';
+display: block;
+height: 2px;
+background: #e0b233;
+margin-top: 0.4rem;
+}
+
+.sticky__containers-img {
+    width: 120px;
+    height: 31px;
+    background: url('/paybis-logo.eaed1a2f.webp') center/cover no-repeat;
+}
+
+.sticky__containers-bitcoin {
+    display: flex;
+    background-color: #f9f9f9;
+}
+
+.sticky__containers-bitget {
+    display: flex;
+}
+
+.sticky__containers-text {
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sticky__containers-imgbitget {
+    width: 120px;
+    height: 31px;
+    background: url('/bitget-logo.e9be9f4b.webp') center/cover no-repeat;
+}
+
+.sticky__nft-containers-info {
+    padding-top: 3rem;
+}
+
+.sticky__nftcontainers-img {
+    width: 140px;
+    height: 140px;
+    background: url('/sorare.45a86e6d.webp') center/cover no-repeat;
+}
+
+.sticky__nftcontainers-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.sticky__columns {
+    position: sticky;
+    top: 0;
+}
+
+.main__buttons {
+    margin-top: 5rem;
+}
+
+.button_search {
+    content: '\e80a';
+    width: 1rem;
+    height: 1rem;
+}
+
+
+
+.search-logo::after {
+    content:  '\1F50D';   
+    color: wheat;
+    width: 20px;
+    height: 20px;
+}
+
+.reverse {
+    width: 50%;
+    height: auto;
+    margin-left: 0.8rem;
+}
+
+.pages-wrapper {
+    background-color: #fff;
+    box-shadow: 0px 10px 1px 1px rgba(0, 0, 0, 0.15);
+    width: 980px;
+    height: 3rem;
+    margin: 0rem 20rem;
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+}
+
+.first_page, .second_page, .third_page, .last_page {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.3rem;
+}
+
+.numbers_pages {
+    display: flex;
+    align-items: center;
+}
+
+.page_numbers {
+    margin-left: 21rem;
+    font-size: 0.8rem;
+}
+
+.first_page {
+    color: #fff;
+    background-color: #e0b233;
+    border: none;
+    cursor: pointer;
+}
+
+.second_page:hover {
+    background-color: #222222;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.third_page:hover {
+    background-color: #222222;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.last_page:hover {
+    background-color: #222222;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.pages-mobile {
+    display: none;
+}
+
+
+/* NEW PAGE */
+
+.news_block {
+    display: flex;
+    /* width: 980px;
+    height: auto; */
+    /* margin: 0rem 20rem; */
+    /* background-color: red; */
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.news_title {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.news_title:hover {
+    cursor: pointer;
+    color: #e0b233;
+}
+
+.previous {
+    display: flex;
+    flex-direction: column;
+}
+
+.previous_btn {
+    color: #c1c1c1;
+    font-weight: bold;
+}
+
+.next {
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}
+
+.autor {
+    /* background-color: green; */
+
+    display: flex;
+    margin-top: 3rem;
+    /* width: 980px;
+    height: auto;
+    margin: 0rem 20rem */
+}
+
+.autor_photo {
+    width: 28rem;
+    height: 6rem;
+    background: url('/autor_photo.02b3ddea.png') center/cover no-repeat;
+    cursor: pointer;
+}
+
+.autor_title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.autor_name {
+    margin-bottom: 1rem;
+    padding-top: 0.6rem;
+    font-weight: bold;
+}
+
+.autor_name:hover {
+    cursor: pointer;
+    color: #e0b233;
+}
+
+.autor_subtext {
+    font-size: 13px;
+}
+
+.clauses {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.next {
+    display: flex;
+    margin-left: 5rem;
+    align-items: end;
+}
+
+.previous {
+    display: flex;
+    align-items: start;
+}
+
+.clauses_buttons {
+    display: flex;
+    margin: 1rem 1rem 0rem 1.2rem;
+}
+
+.clause_button-right {
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.clauses_switching-left {
+    font-weight: bold;
+    text-align: center;
+    height: 1rem;
+    width: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 8rem;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid;
+}
+
+.clauses_switching-left::after {
+    content: '\003C';
+}
+
+
+.clauses_switching-left:hover {
+    cursor: pointer;
+    background-color: #e0b233;
+    border: 1px solid;
+}
+
+.clauses_switching-right:hover {
+    cursor: pointer;
+    background-color: #e0b233;
+    border: 1px solid;
+}
+
+.clauses_switching-right::after {
+    content: '\003E';
+}
+
+.clause_button-left::after {
+    width: 160px;
+    content: '';
+    display: block;
+    height: 2px;
+    background: #e0b233;
+    margin-top: 0.4rem;
+}
+
+.clause_button-left {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.clause_button-right {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.clause_button-right::after {
+    width: 155px;
+    content: '';
+    display: block;
+    height: 2px;
+    background: #e0b233;
+    margin-top: 0.4rem;
+}
+
+.clauses_switching-right {
+    font-weight: bold;
+    text-align: center;
+    height: 1rem;
+    width: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid;
+}
+
+.news_panel {
+    /* background-color: aqua; */
+    /* width: 980px;
+    height: auto; */
+    display: flex;
+    /* margin-bottom: 1rem */
+    /* margin: 0rem 20rem */
+}
+
+.first_note, .second_note, .third_note {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.second_note, .third_note {
+    margin-left: 1rem;
+}
+
+.first_note-img, .second_note-img, .third_note-img {
+    width: 12rem;
+    height: 9rem;
+    background: url('/nft-guida.1163fec4.png') center/cover no-repeat;
+    cursor: pointer;
+}
+
+.second_note-img {
+    width: 12rem;
+    height: 9rem;
+    background: url('/sam-bankman-fried-crollo-ftx.5643df3c.jpg') center/cover no-repeat;
+    cursor: pointer;
+}
+
+.third_note-img {
+    width: 12rem;
+    height: 9rem;
+    background: url('/sorare-nba-guida-basket.afddc149.jpg') center/cover no-repeat;
+    cursor: pointer;
+}
+
+.first_note-subtitle, .second_note-subtitle, .third_note-subtitle {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.first_note-subtitle:hover, .second_note-subtitle:hover, .third_note-subtitle:hover {
+    cursor: pointer;
+    color: #e0b233;
+}
+
+
+.news_panel2 {
+    display: none;
+}
+
+.first_note2, .second_note2, .third_note2 {
+    display: none;
+}
+
+.first_note-img2, .second_note-img2, .third_note-img2 {
+    width: 12rem;
+    height: 9rem;
+    background: url('/bitcoin.54b2d041.jpeg') center/cover no-repeat;
+    cursor: pointer;
+}
+
+.second_note-img2 {
+    width: 12rem;
+    height: 9rem;
+    background: url('/carte-legend-sorare-guida.e2a4e0e4.png') center/cover no-repeat;
+    cursor: pointer;
+}
+
+.third_note-img2 {
+    width: 12rem;
+    height: 9rem;
+    background: url('/ethereum-eth-the-merge.97b45d48.jpg') center/cover no-repeat;
+    cursor: pointer;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0.05;
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+/*# sourceMappingURL=/main.c52e0fe2.css.map */
