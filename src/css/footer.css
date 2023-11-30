@@ -23,8 +23,9 @@ footer {
 }
 
 .footer__decs {
-    width: 39%;
-    height: 411px;
+    width: auto;
+    height: auto;
+    flex: 1;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -62,8 +63,8 @@ margin-top: 0.4rem;
 }
 
 .footer__categories {
-    width: 40%;
-    height: 325px;
+    width: auto;
+    height: auto;
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -82,12 +83,12 @@ margin-top: 0.4rem;
 
 .footer__news-img {
     background: url('/assets/footer/cloudbet.webp') center/cover no-repeat;
-    width: 80%;
-    height: 60px;
+    width: 100px;
+    height: 75px;
 }
 
 .footer__news-info {
-    width: 73%;
+    width: 100%;
     display: flex;
     margin-top: 40px;
     margin-bottom: 0px;

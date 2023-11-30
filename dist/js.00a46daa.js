@@ -118,13 +118,11 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"js/index.js":[function(require,module,exports) {
-// const button = document.querySelector('div');
-// const input = document.querySelector('#inputfield');
-
-// button.addEventListener('click', () => {
-//     input.classList.add('open')
-// });
-
+var btn = document.querySelector('section');
+var input = document.querySelector('#inputfield');
+btn.addEventListener('click', function () {
+  input.classList.toggle('open');
+});
 var button = document.getElementById('right');
 var eventButton = document.getElementById('left');
 var cont = document.getElementById('first_note-img');
@@ -199,7 +197,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "4991" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60768" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

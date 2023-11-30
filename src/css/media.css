@@ -1,8 +1,110 @@
-@media (max-width: 1023px) {
+@media (max-width: 1920px) {
+    #inputfield.open {
+        left: 76rem;
+    }
+
+    .autor_photo {
+        width: 18rem;
+        height: 7rem;
+    }
+
+    .main_info {
+        padding-top: 70px;
+    }
+
+    .sticky__compra-containers-subtitle {
+        color: #4DB2EC;
+        font-size: 13px;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 1366px) {
+    .footer__decs-img {
+        width: 190px;
+        height: 28px;
+    }
+
+    .footer__decs {
+        width: auto;
+        height: auto;
+    }
+
+    .footer__news {
+        width: auto;
+        height: auto;
+    }
+
+    .footer__news-img {
+        width: 260px;
+        height: 70px;
+    }
+
+    .footer__decs-title {
+        width: auto;
+        height: auto;
+    }
+
+    .autor_photo {
+        width: 27rem;
+        height: 6rem;
+    }
+
+    .footer__main-info {
+        margin-bottom: 2rem;
+    }
+    
+    .footer__decs {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .footer__decs-img {
+        width: 230px;
+        height: 34px;
+    }
+
+    .footer__decs {
+        width: auto;
+        height: auto;
+    }
+
+    .footer__news-info {
+        width: auto;
+    }
+
+    .footer__news {
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    #inputfield.open {
+        left: 56rem;
+    }
+
+    .main_info {
+        padding-bottom: 30px;
+    }
+
+    .footer__decs {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1024px) {
     .bento-menu {
         width: 55px;
         height: 55px;
         display: block;
+    }
+
+    .main_info {
+        padding: 0;
+    }
+
+    .previous_btn, .news_title {
+        text-align: center;
     }
 
     .main__container {
@@ -11,6 +113,7 @@
         flex-direction: column;
         -webkit-flex-direction: column;
         margin: 0;
+        padding: 0 15px;
     }
 
     .nav__container {
@@ -28,7 +131,7 @@
     }
 
     #inputfield.open {
-        left: 9rem;
+        left: 19rem;
         display: block;
         display: -webkit-block;
         position: absolute;
@@ -68,6 +171,16 @@
         margin: 2rem 2rem;
     }
 
+    .sticky__containers-subtitle-info, .sticky__containers-subtitle {
+        margin-left: 120px;
+    }
+
+    .sticky__compra-containers-subtitle {
+        width: 8rem;
+        text-decoration: none;
+        color: #4db2ec;
+    }
+
     .nav__link-gambling {
         display: none;
         display: -webkit-none;
@@ -76,6 +189,11 @@
     .page_numbers {
         display: none;
         display: -webkit-none;
+    }
+
+    .autor_photo {
+        width: 28rem;
+        height: 8rem;
     }
 
     .main__containers {
@@ -122,8 +240,8 @@
     }
 
     .footer__decs-img {
-        width: 10rem;
-        height: 1rem;
+        width: 13rem;
+        height: 2rem;
     }
 
     .footer__decs-title {
@@ -140,7 +258,7 @@
         align-items: center;
         -webkit-align-items: center;
         margin-bottom: 4rem;
-        margin-left: 3rem;
+        margin-left: 2rem;
         flex: 3 1 0%;
     }
 
@@ -163,9 +281,15 @@
     .footer__news-info {
         width: auto;
     }
+
+    .footer__categories-title::after {
+        width: 6rem;
+    }
+
+    .footer__categories-title {
+        margin-right: 0;
+    }
 }
-
-
 
 @media (max-width: 767px) {
     .body {
@@ -215,7 +339,7 @@
     }
 
     #inputfield.open {
-    left: 5rem;
+    left: 4rem;
     display: block;
     display: -webkit-block;
     position: absolute;
@@ -412,13 +536,14 @@
     }
 
     .footer__categories {
-        width: 75%;
+        width: auto;
         display: flex;
         display: -webkit-flex;
         align-items: flex-start;
         -webkit-align-items: flex-start;
         margin-top: 2rem;
-        margin-left: 0;
+        margin-bottom: 2rem;
+        margin-left: 1rem;
     }
 
     .footer__news-title {
@@ -621,6 +746,25 @@
         margin-bottom: 4px;
     }
 
+}
+
+@media (max-width: 342px) {
+    .footer__decs-img {
+        width: 15rem;
+        height: 2rem;
+    }
+
+    .clause_button-left, .clause_button-right {
+        text-align: center;
+    }
+
+    .asd {
+        width: 12rem;
+    }
+
+    .search-btn {
+        left: 12rem;
+    }
 }
 
 @media (max-width: 320px) {

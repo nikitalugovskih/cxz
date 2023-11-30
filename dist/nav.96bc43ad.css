@@ -1,9 +1,18 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
 .nav__container {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
+    -webkit-justify-content: center;
     align-items: center;
+    -webkit-align-items: center;
     background-color: black;
-    width: 94.9rem;
+    width: auto;
     height: 4rem;
 }
 
@@ -20,7 +29,6 @@
     margin-right: 3rem;
     cursor: pointer;
     text-decoration: none;
-    
 }
 
 .nav__link-gambling {
@@ -59,6 +67,7 @@
 
 #inputfield {
     display: none;
+    display: -webkit-none;
     animation-duration: 1.5s;
     animation-fill-mode: both;
     animation-name: fadeIn;
@@ -70,12 +79,14 @@
   #inputfield.open {
     left: 62rem;
     display: block;
+    display: -webkit-block;
     position: absolute;
     top: 4rem;
   }
 
   #inputfield.remove {
     display: none;
+    display: -webkit-none;
 }
   
   @keyframes fadeIn {
@@ -114,6 +125,7 @@
     width: 50px;
     height: 50px;
     display: none;
+    display: -webkit-none;
   }
 
   

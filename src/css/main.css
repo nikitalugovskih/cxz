@@ -270,6 +270,12 @@
     color: #4db2ec;
 }
 
+.sticky__containers-subtitle {
+    width: 8rem;
+    text-decoration: none;
+    color: #4db2ec;
+}
+
 .sticky__containers-subtitle-comprainfo {
     font-size: 13px;
 }
@@ -554,8 +560,8 @@ margin-top: 0.4rem;
     display: flex;
     display: -webkit-flex;
     margin-left: 5rem;
-    align-items: end;
-    -webkit-align-items: end;
+    align-items: center;
+    -webkit-align-items: center;
 }
 
 .previous {

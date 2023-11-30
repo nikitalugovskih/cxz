@@ -1,43 +1,52 @@
+footer {
+    width: auto;
+    height: auto;
+    background-color: #222;
+}
+
 .footer__main-info {
-    margin: 0rem 20rem;
-    /* width: 760px;
-    width: 50.5rem;
-    height: 500px; */
-    width: 980px;
+    margin: 0rem 17rem;
+    width: auto;
     height: auto;
     padding-top: 3rem;
     display: flex;
+    display: -webkit-flex;
     background-color: #222;
 }
 
 .footer__decs-img {
     background: url('/nav-logo.682c9f11.webp') center/cover no-repeat;
-    width: 107%;
-    height: 12%;
+    width: 22rem;
+    height: 3rem;
     background-color: black;
     cursor: pointer;
 }
 
 .footer__decs {
-    width: 39%;
-    height: 411px;
+    width: auto;
+    height: auto;
+    flex: 1;
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
+    -webkit-flex-direction: column;
     margin-left: 1rem;
 }
 
 .footer__news {
-    /* width: 252px;
-    height: 309px; */
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
+    -webkit-flex-direction: column;
     align-items: center;
+    -webkit-align-items: center;
 }
 
 .footer__news-title::after {
 width: 8rem;
 content: '';
 display: block;
+display: -webkit-block;
 height: 2px;
 background: #e0b233;
 margin-top: 0.4rem;
@@ -47,17 +56,21 @@ margin-top: 0.4rem;
 width: 14rem;
 content: '';
 display: block;
+display: -webkit-block;
 height: 2px;
 background: #e0b233;
 margin-top: 0.4rem;
 }
 
 .footer__categories {
-    width: 40%;
-    height: 325px;
+    width: auto;
+    height: auto;
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
+    -webkit-flex-direction: column;
     align-items: center;
+    -webkit-align-items: center;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -70,12 +83,12 @@ margin-top: 0.4rem;
 
 .footer__news-img {
     background: url('/cloudbet.7565e509.webp') center/cover no-repeat;
-    width: 80%;
-    height: 60px;
+    width: 100px;
+    height: 75px;
 }
 
 .footer__news-info {
-    width: 73%;
+    width: 100%;
     display: flex;
     margin-top: 40px;
     margin-bottom: 0px;
@@ -83,13 +96,17 @@ margin-top: 0.4rem;
 
 .footer-text {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
+    -webkit-flex-direction: column;
     margin-left: 10px;
 }
 
 .articles {
     display: flex;
+    display: -webkit-flex;
     flex-direction: column;
+    -webkit-flex-direction: column;
 }
 
 .news-list {
@@ -120,17 +137,18 @@ margin-top: 0.4rem;
 }
 
 .contact-info {
-    width: 980px;
+    width: auto;
     height: auto;
     display: flex;
-    margin: 0rem 20rem;
+    display: -webkit-flex;
     background-color: black;
     padding: 1rem;
-    font-size: 11px
+    font-size: 11px;
 }
 
 .contact-info__links {
     display: flex;
+    display: -webkit-flex;
     margin-left: 7rem;
     color: #fff;
 }
